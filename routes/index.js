@@ -29,8 +29,6 @@ router.get('/', (req, res) => {
         }).catch(err => {
             console.error(err)
         })
-    } else {
-        res.send('Yo')
     }
 })
 
@@ -61,8 +59,6 @@ router.get('/book', (req, res) => {
         }).catch(err => {
             console.error(err)
         })
-    } else {
-        res.send('Yo')
     }
 })
 
